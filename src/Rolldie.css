@@ -1,0 +1,27 @@
+.Rolldice{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Rolldice-wrappr{
+  display: flex;
+  flex-direction: row;
+}
+
+.Rolldice button {
+  align-self: center;
+  width: 15em;
+  padding: 1.5em;
+  border: 0px;
+  color: white;
+  background-color: darkcyan;
+  border-radius: 10px;
+  font-size: 1.1em;
+  margin-top: 3em;
+}
+
+.Rolldice button:hover{
+  cursor: pointer;
+  background-color: #006868;
+}
